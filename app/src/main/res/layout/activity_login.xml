@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#515659"
+    tools:context=".login"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="192dp">
+
+    <FrameLayout
+        android:layout_width="409dp"
+        android:layout_height="700dp"
+        android:background="@color/medio_noche"
+        app:layout_constraintBottom_toTopOf="@+id/btn_office"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_apple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="64dp"
+        android:text="Apple"
+        android:backgroundTint="@color/alto_noche"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_office"
+        app:strokeColor="#F2F2F2"
+        app:strokeWidth="1.5dp"/>
+
+    <Button
+        android:id="@+id/btn_office"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="64dp"
+        android:text="Office"
+        android:backgroundTint="@color/alto_noche"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_apple"
+        app:layout_constraintStart_toEndOf="@+id/btn_google"
+        app:strokeColor="#F2F2F2"
+        app:strokeWidth="1.5dp"/>
+
+    <Button
+        android:id="@+id/btn_google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="64dp"
+        android:backgroundTint="@color/alto_noche"
+        android:text="Google"
+        android:textColor="@color/texto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_office"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#f2f2f2"
+        app:strokeWidth="1.5dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

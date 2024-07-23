@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="texto">#262626</color>
+    <color name="fondo_noche">#515659</color>
+    <color name="claro_noche">#F2F2F2</color>
+    <color name="medio_noche">#BFB1A4</color>
+    <color name="alto_noche">#8C8881</color>
+    <color name="fondo_dia">#EADFB4</color>
+    <color name="claro_dia">#9BB0C1</color>
+    <color name="medio_dia">#51829B</color>
+    <color name="alto_dia">#F6995C</color>
+</resources>
