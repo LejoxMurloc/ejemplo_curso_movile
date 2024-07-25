@@ -38,7 +38,7 @@
         android:layout_height="65dp"
         android:layout_marginTop="128dp"
         android:fontFamily="casual"
-        android:text="Eco Charch Point"
+        android:text="HidroTrack"
         android:textAlignment="center"
         android:textColor="@color/claro_noche"
         android:textSize="34sp"
